@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [KalKomey Boat Ed Automation Suite]]" parallel="classes">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Boat Ed Automation Run on Firefox">
+    <classes>
+      <class name="products.CM.Search_Test">
+        <methods>
+          <include name="Search_Validation"/>
+        </methods>
+      </class> <!-- products.CM.Search_Test -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox -->
+  <test name="Boat Ed Automation Run on Firefox(failed)" parallel="classes">
+    <classes>
+      <class name="products.CM.Search_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="Search_Validation"/>
+        </methods>
+      </class> <!-- products.CM.Search_Test -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox(failed) -->
+  <test name="Boat Ed Automation Run on Firefox(failed)" parallel="classes">
+    <classes>
+      <class name="products.CM.Search_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="Search_Validation"/>
+        </methods>
+      </class> <!-- products.CM.Search_Test -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox(failed) -->
+  <test name="Boat Ed Automation Run on Firefox(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="products.CM.Search_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="Search_Validation"/>
+        </methods>
+      </class> <!-- products.CM.Search_Test -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KalKomey Boat Ed Automation Suite]] -->

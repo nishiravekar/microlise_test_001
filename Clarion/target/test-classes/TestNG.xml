@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  @Parameter - 'environment' cab be - "local","grid" "  -->
+<!--  @Parameter - 'browser' cab be - "firefox","chrome" ,"ie"  -->
+<!--  @Parameter - 'os' cab be - "windows 7" -->
+
+<suite name="Microlise Automation Suite" parallel="false" thread-count="2">
+<!-- <suite name="KalKomey Automation Suite" > -->
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="ie"/>
+	<parameter name="os" value="windows 7"/>
+	
+	<test name="Microlise Automation"> 
+	    <classes>
+	        
+	        
+	       
+	          <class name="products.CM.Search_Test">
+	         	
+	         </class>
+	         
+	          
+	         
+	          
+	    </classes> 
+ 	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

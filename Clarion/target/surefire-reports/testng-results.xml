@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[====
+Test 1 : Verify UI of Login page
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 : Verifying presence of UI elements : Email Textbox,Password Textbox,Forgot Password Link,Login Button ]]>
+    </line>
+    <line>
+      <![CDATA[Success !! Email Textbox is present]]>
+    </line>
+    <line>
+      <![CDATA[Success !! Password Textbox is present]]>
+    </line>
+    <line>
+      <![CDATA[Success !! Login button is present]]>
+    </line>
+    <line>
+      <![CDATA[Success !! Forgot Password link is present]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 2 : Verify that user can login with valid credentials
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Login with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Verifying whether user is logged successfully or not]]>
+    </line>
+    <line>
+      <![CDATA[Success !! User logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 3 : Verify that user can't login with invalid credentials and proper validation messages are displayed  A) Keep both Email/Password blank
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Clicking on Login button without entering any details]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Verifying whether validation messages are displayed for mandatory fields]]>
+    </line>
+    <line>
+      <![CDATA[Success !! correct validation messages are displayed for mandatory fields]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 4 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button ]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Verifying whether validation messages are displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Success !! correct validation messages are displayed ]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 5 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button ]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Verifying whether validation messages are displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Success !! correct validation messages are displayed ]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 6 : Verify that user can't access the restricted pages without login
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Trying to access Restricted Pages and verifying whether user is navigated to Home page or not]]>
+    </line>
+    <line>
+      <![CDATA[Success !! User is navigated to Home page]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 7 : Verify that user can logout successfully
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Login with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Verifying whether user is logged out successfully or not]]>
+    </line>
+    <line>
+      <![CDATA[Success !! User is navigated to Logout page]]>
+    </line>
+  </reporter-output>
+  <suite name="KalKomey Boat Ed Automation Suite" duration-ms="303004" started-at="2016-03-07T13:14:29Z" finished-at="2016-03-07T13:19:32Z">
+    <groups>
+    </groups>
+    <test name="Boat Ed Automation Run on Firefox" duration-ms="303004" started-at="2016-03-07T13:14:29Z" finished-at="2016-03-07T13:19:32Z">
+      <class name="products.CM.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="19044" started-at="2016-03-07T18:44:29Z" finished-at="2016-03-07T18:44:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_UIElementVerification()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_UIElementVerification" duration-ms="16705" started-at="2016-03-07T18:44:48Z" finished-at="2016-03-07T18:45:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 1 : Verify UI of Login page
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Verifying presence of UI elements : Email Textbox,Password Textbox,Forgot Password Link,Login Button ]]>
+            </line>
+            <line>
+              <![CDATA[Success !! Email Textbox is present]]>
+            </line>
+            <line>
+              <![CDATA[Success !! Password Textbox is present]]>
+            </line>
+            <line>
+              <![CDATA[Success !! Login button is present]]>
+            </line>
+            <line>
+              <![CDATA[Success !! Forgot Password link is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_UIElementVerification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6401" started-at="2016-03-07T18:45:05Z" finished-at="2016-03-07T18:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="8727" started-at="2016-03-07T18:45:11Z" finished-at="2016-03-07T18:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_LoginSuccessful()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_LoginSuccessful" duration-ms="56684" started-at="2016-03-07T18:45:20Z" finished-at="2016-03-07T18:46:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 2 : Verify that user can login with valid credentials
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Login with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Verifying whether user is logged successfully or not]]>
+            </line>
+            <line>
+              <![CDATA[Success !! User logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_LoginSuccessful -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6192" started-at="2016-03-07T18:46:16Z" finished-at="2016-03-07T18:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="19440" started-at="2016-03-07T18:46:23Z" finished-at="2016-03-07T18:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_LoginFailure_BlankInputs()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_LoginFailure_BlankInputs" duration-ms="25532" started-at="2016-03-07T18:46:42Z" finished-at="2016-03-07T18:47:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 3 : Verify that user can't login with invalid credentials and proper validation messages are displayed  A) Keep both Email/Password blank
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Clicking on Login button without entering any details]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Verifying whether validation messages are displayed for mandatory fields]]>
+            </line>
+            <line>
+              <![CDATA[Success !! correct validation messages are displayed for mandatory fields]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_LoginFailure_BlankInputs -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6187" started-at="2016-03-07T18:47:08Z" finished-at="2016-03-07T18:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="8134" started-at="2016-03-07T18:47:14Z" finished-at="2016-03-07T18:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_LoginFailure_InvalidEmail()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_LoginFailure_InvalidEmail" duration-ms="19552" started-at="2016-03-07T18:47:22Z" finished-at="2016-03-07T18:47:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 4 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button ]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Verifying whether validation messages are displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Success !! correct validation messages are displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_LoginFailure_InvalidEmail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6232" started-at="2016-03-07T18:47:42Z" finished-at="2016-03-07T18:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="5718" started-at="2016-03-07T18:47:48Z" finished-at="2016-03-07T18:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_LoginFailure_InvalidPass()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_LoginFailure_InvalidPass" duration-ms="18866" started-at="2016-03-07T18:47:53Z" finished-at="2016-03-07T18:48:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 5 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button ]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Verifying whether validation messages are displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Success !! correct validation messages are displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_LoginFailure_InvalidPass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6225" started-at="2016-03-07T18:48:12Z" finished-at="2016-03-07T18:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="8101" started-at="2016-03-07T18:48:19Z" finished-at="2016-03-07T18:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_RestrictedPages()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_RestrictedPages" duration-ms="15929" started-at="2016-03-07T18:48:27Z" finished-at="2016-03-07T18:48:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 6 : Verify that user can't access the restricted pages without login
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Trying to access Restricted Pages and verifying whether user is navigated to Home page or not]]>
+            </line>
+            <line>
+              <![CDATA[Success !! User is navigated to Home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_RestrictedPages -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6236" started-at="2016-03-07T18:48:43Z" finished-at="2016-03-07T18:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="setUp" is-config="true" duration-ms="14272" started-at="2016-03-07T18:48:49Z" finished-at="2016-03-07T18:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_Logout()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="Login_Logout" duration-ms="22604" started-at="2016-03-07T18:49:03Z" finished-at="2016-03-07T18:49:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 7 : Verify that user can logout successfully
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Login with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Verifying whether user is logged out successfully or not]]>
+            </line>
+            <line>
+              <![CDATA[Success !! User is navigated to Logout page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_Logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.LoginTest@c7b7af9]" name="teardown" is-config="true" duration-ms="6187" started-at="2016-03-07T18:49:26Z" finished-at="2016-03-07T18:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- products.CM.LoginTest -->
+    </test> <!-- Boat Ed Automation Run on Firefox -->
+  </suite> <!-- KalKomey Boat Ed Automation Suite -->
+</testng-results>

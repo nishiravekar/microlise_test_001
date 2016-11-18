@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[====
+Test 1 : Verify user is able to Search using all fields which are available for Advance search
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Advance Search page : http://www.microlise.com/resources/]]>
+    </line>
+    <line>
+      <![CDATA[====
+Test 1 : Verify user is able to Search only using Search Term field
+====]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Navigate to Advance Search page : http://www.microlise.com/resources/]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Go to Advance Search section]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Go to Advance Search section]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 : Entering text in Search Term field]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 : Entering text in Search Term field]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Clicking on Search Now button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Clicking on Search Now button]]>
+    </line>
+    <line>
+      <![CDATA[Success !! Search successfully Done]]>
+    </line>
+  </reporter-output>
+  <suite name="KalKomey Boat Ed Automation Suite" duration-ms="68383" started-at="2016-11-17T20:06:53Z" finished-at="2016-11-17T20:08:02Z">
+    <groups>
+    </groups>
+    <test name="Boat Ed Automation Run on Firefox" duration-ms="68383" started-at="2016-11-17T20:06:53Z" finished-at="2016-11-17T20:08:02Z">
+      <class name="products.CM.Search_Test">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="setUp" is-config="true" duration-ms="3306" started-at="2016-11-17T12:06:53Z" finished-at="2016-11-17T12:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="setUp" is-config="true" duration-ms="4288" started-at="2016-11-17T12:06:53Z" finished-at="2016-11-17T12:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchWithAllFields()[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="SearchWithAllFields" duration-ms="65015" started-at="2016-11-17T12:06:57Z" finished-at="2016-11-17T12:08:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 1 : Verify user is able to Search using all fields which are available for Advance search
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Advance Search page : http://www.microlise.com/resources/]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Go to Advance Search section]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Entering text in Search Term field]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Clicking on Search Now button]]>
+            </line>
+            <line>
+              <![CDATA[Success !! Search successfully Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchWithAllFields -->
+        <test-method status="FAIL" signature="Search_Validation()[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="Search_Validation" duration-ms="39785" started-at="2016-11-17T12:06:58Z" finished-at="2016-11-17T12:07:37Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 1
+	at products.CM.Search_Test.Search_Validation(Search_Test.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+            <line>
+              <![CDATA[====
+Test 1 : Verify user is able to Search only using Search Term field
+====]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 : Navigate to Advance Search page : http://www.microlise.com/resources/]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Go to Advance Search section]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Entering text in Search Term field]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Clicking on Search Now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_Validation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="teardown" is-config="true" duration-ms="6015" started-at="2016-11-17T12:07:37Z" finished-at="2016-11-17T12:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:products.CM.Search_Test@2752f6e2]" name="teardown" is-config="true" duration-ms="3" started-at="2016-11-17T12:08:02Z" finished-at="2016-11-17T12:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- products.CM.Search_Test -->
+    </test> <!-- Boat Ed Automation Run on Firefox -->
+  </suite> <!-- KalKomey Boat Ed Automation Suite -->
+</testng-results>

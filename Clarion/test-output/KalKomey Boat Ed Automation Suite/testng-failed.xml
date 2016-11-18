@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [KalKomey Boat Ed Automation Suite]" parallel="methods">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="browser" value="ie"/>
+  <test name="Boat Ed Automation Run on Firefox">
+    <classes>
+      <class name="products.CM.Search_Test"/>
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox -->
+  <test name="Boat Ed Automation Run on Firefox(failed)" parallel="methods">
+    <classes>
+      <class name="products.CM.Search_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Search_Validation"/>
+        </methods>
+      </class> <!-- products.CM.Search_Test -->
+    </classes>
+  </test> <!-- Boat Ed Automation Run on Firefox(failed) -->
+</suite> <!-- Failed suite [KalKomey Boat Ed Automation Suite] -->

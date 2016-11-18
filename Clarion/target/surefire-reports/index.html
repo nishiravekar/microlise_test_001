@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite">
+              <span class="suite-name border-passed">KalKomey Boat Ed Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>D:\New System Data\My_Workspace\Clarion\src\test\resources\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-KalKomey_Boat_Ed_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-KalKomey_Boat_Ed_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" class="hide-methods passed suite-KalKomey_Boat_Ed_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-KalKomey_Boat_Ed_Automation_Suite -->
+                      <a href="#" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" class="show-methods passed suite-KalKomey_Boat_Ed_Automation_Suite"> (show)</a> <!-- show-methods passed suite-KalKomey_Boat_Ed_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-KalKomey_Boat_Ed_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_LoginFailure_BlankInputs">Login_LoginFailure_BlankInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_LoginFailure_InvalidEmail">Login_LoginFailure_InvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_LoginFailure_InvalidPass">Login_LoginFailure_InvalidPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_LoginSuccessful">Login_LoginSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_Logout">Login_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_RestrictedPages">Login_RestrictedPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" title="products.CM.LoginTest" hash-for-method="Login_UIElementVerification">Login_UIElementVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-KalKomey_Boat_Ed_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-KalKomey_Boat_Ed_Automation_Suite" class="panel KalKomey_Boat_Ed_Automation_Suite">
+          <div class="suite-KalKomey_Boat_Ed_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">products.CM.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_LoginFailure_BlankInputs">
+                  </a> <!-- Login_LoginFailure_BlankInputs -->
+                  <span class="method-name">Login_LoginFailure_BlankInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_LoginFailure_InvalidEmail">
+                  </a> <!-- Login_LoginFailure_InvalidEmail -->
+                  <span class="method-name">Login_LoginFailure_InvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_LoginFailure_InvalidPass">
+                  </a> <!-- Login_LoginFailure_InvalidPass -->
+                  <span class="method-name">Login_LoginFailure_InvalidPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_LoginSuccessful">
+                  </a> <!-- Login_LoginSuccessful -->
+                  <span class="method-name">Login_LoginSuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Logout">
+                  </a> <!-- Login_Logout -->
+                  <span class="method-name">Login_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_RestrictedPages">
+                  </a> <!-- Login_RestrictedPages -->
+                  <span class="method-name">Login_RestrictedPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_UIElementVerification">
+                  </a> <!-- Login_UIElementVerification -->
+                  <span class="method-name">Login_UIElementVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KalKomey_Boat_Ed_Automation_Suite-class-passed -->
+        </div> <!-- panel KalKomey_Boat_Ed_Automation_Suite -->
+        <div panel-name="test-xml-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\New System Data\My_Workspace\Clarion\src\test\resources\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;KalKomey Boat Ed Automation Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;windows 7&quot;/&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;local&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;test name=&quot;Boat Ed Automation Run on Firefox&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;products.CM.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login_UIElementVerification&quot;/&gt;
+          &lt;include name=&quot;Login_LoginSuccessful&quot;/&gt;
+          &lt;include name=&quot;Login_LoginFailure_BlankInputs&quot;/&gt;
+          &lt;include name=&quot;Login_LoginFailure_InvalidEmail&quot;/&gt;
+          &lt;include name=&quot;Login_LoginFailure_InvalidPass&quot;/&gt;
+          &lt;include name=&quot;Login_RestrictedPages&quot;/&gt;
+          &lt;include name=&quot;Login_Logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- products.CM.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Boat Ed Automation Run on Firefox --&gt;
+&lt;/suite&gt; &lt;!-- KalKomey Boat Ed Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for KalKomey Boat Ed Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Boat Ed Automation Run on Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for KalKomey Boat Ed Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for KalKomey Boat Ed Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_KalKomey_Boat_Ed_Automation_Suite');
+function tableData_KalKomey_Boat_Ed_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login_LoginSuccessful')
+data.setCell(0, 2, 'products.CM.LoginTest')
+data.setCell(0, 3, 56684);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_LoginFailure_BlankInputs')
+data.setCell(1, 2, 'products.CM.LoginTest')
+data.setCell(1, 3, 25532);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Login_Logout')
+data.setCell(2, 2, 'products.CM.LoginTest')
+data.setCell(2, 3, 22604);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Login_LoginFailure_InvalidEmail')
+data.setCell(3, 2, 'products.CM.LoginTest')
+data.setCell(3, 3, 19552);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Login_LoginFailure_InvalidPass')
+data.setCell(4, 2, 'products.CM.LoginTest')
+data.setCell(4, 3, 18866);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Login_UIElementVerification')
+data.setCell(5, 2, 'products.CM.LoginTest')
+data.setCell(5, 3, 16705);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login_RestrictedPages')
+data.setCell(6, 2, 'products.CM.LoginTest')
+data.setCell(6, 3, 15929);
+window.suiteTableData['KalKomey_Boat_Ed_Automation_Suite']= { tableData: data, tableDiv: 'times-div-KalKomey_Boat_Ed_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-KalKomey_Boat_Ed_Automation_Suite">
+              </div> <!-- times-div-KalKomey_Boat_Ed_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for KalKomey Boat Ed Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_Logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 7 : Verify that user can logout successfully
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 2 : Login with valid credentials</span>
+                <span class="reporter-method-output">Step 2: Logging out of application</span>
+                <span class="reporter-method-output">Step 4 : Verifying whether user is logged out successfully or not</span>
+                <span class="reporter-method-output">Success !! User is navigated to Logout page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_LoginFailure_InvalidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 4 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button </span>
+                <span class="reporter-method-output">Step 4 : Verifying whether validation messages are displayed </span>
+                <span class="reporter-method-output">Success !! correct validation messages are displayed </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_UIElementVerification</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 1 : Verify UI of Login page
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 3 : Verifying presence of UI elements : Email Textbox,Password Textbox,Forgot Password Link,Login Button </span>
+                <span class="reporter-method-output">Success !! Email Textbox is present</span>
+                <span class="reporter-method-output">Success !! Password Textbox is present</span>
+                <span class="reporter-method-output">Success !! Login button is present</span>
+                <span class="reporter-method-output">Success !! Forgot Password link is present</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_LoginSuccessful</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 2 : Verify that user can login with valid credentials
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 2 : Login with valid credentials</span>
+                <span class="reporter-method-output">Step 4 : Verifying whether user is logged successfully or not</span>
+                <span class="reporter-method-output">Success !! User logged in successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_RestrictedPages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 6 : Verify that user can't access the restricted pages without login
+====</span>
+                <span class="reporter-method-output">Step 1 : Trying to access Restricted Pages and verifying whether user is navigated to Home page or not</span>
+                <span class="reporter-method-output">Success !! User is navigated to Home page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_LoginFailure_BlankInputs</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 3 : Verify that user can't login with invalid credentials and proper validation messages are displayed  A) Keep both Email/Password blank
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 2 : Clicking on Login button without entering any details</span>
+                <span class="reporter-method-output">Step 4 : Verifying whether validation messages are displayed for mandatory fields</span>
+                <span class="reporter-method-output">Success !! correct validation messages are displayed for mandatory fields</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_LoginFailure_InvalidPass</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">====
+Test 5 : Verify that user can't login with invalid credentials and proper validation messages are displayed B) Enter incorrect values in Email/Password fields
+====</span>
+                <span class="reporter-method-output">Step 1 : Navigate to Login page : https://kps.staging.kalkomey.com/login</span>
+                <span class="reporter-method-output">Step 2 : Entering incorrect data in Email/Password field and Clicking on Login button </span>
+                <span class="reporter-method-output">Step 4 : Verifying whether validation messages are displayed </span>
+                <span class="reporter-method-output">Success !! correct validation messages are displayed </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-KalKomey_Boat_Ed_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">products.CM.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_UIElementVerification</span>
+                <span class="method-start">19044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">35750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">42152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_LoginSuccessful</span>
+                <span class="method-start">50879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">107563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">113756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_LoginFailure_BlankInputs</span>
+                <span class="method-start">133196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">158729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">164917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_LoginFailure_InvalidEmail</span>
+                <span class="method-start">173051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">192603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">198836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_LoginFailure_InvalidPass</span>
+                <span class="method-start">204555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">223422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">229647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_RestrictedPages</span>
+                <span class="method-start">237748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">253677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, local, windows 7)</span>
+                <span class="method-start">259913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_Logout</span>
+                <span class="method-start">274185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">296789 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
