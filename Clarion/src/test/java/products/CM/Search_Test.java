@@ -121,10 +121,10 @@ public class Search_Test {
 private void SearchWithAllFields() throws Exception
 {
 	System.out.println("====" + "\n" +
-				"Test 1 : Verify user is able to Search using all fields which are available for Advance search"  + "\n" +
+				"Test 2 : Verify user is able to Search using all fields which are available for Advance search"  + "\n" +
 	 			"====");
 	Reporter.log("====" + "\n" +
-	 			  "Test 1 : Verify user is able to Search using all fields which are available for Advance search"  + "\n" +
+	 			  "Test 2 : Verify user is able to Search using all fields which are available for Advance search"  + "\n" +
 			 	  "====");	
 	
 	int AssertFailedCount=0 ;
@@ -207,10 +207,10 @@ private void SearchWithAllFields() throws Exception
 private void InvalidSearch() throws Exception
 {
 	System.out.println("====" + "\n" +
-				"Test 1 : User is not able to search with invalid input"  + "\n" +
+				"Test 3 : User is not able to search with invalid input"  + "\n" +
 	 			"====");
 	Reporter.log("====" + "\n" +
-	 			  "Test 1 : User is not able to search with invalid input"  + "\n" +
+	 			  "Test 3 : User is not able to search with invalid input"  + "\n" +
 			 	  "====");	
 	
 	int AssertFailedCount=0 ;
